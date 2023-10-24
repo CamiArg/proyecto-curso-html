@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>mcdonalds</title>
+    <style>
+             body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            font-size: 1.5rem;
+            background-color: #FFF;
+        }
+
+        td {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+        }
+
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+            background-color: rgb(162, 162, 162);
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+       <header>
+           <nav>
+                 <ul>
+                     <li><a href="index.html">Home</a></li>
+                     <li><a class="active" href="Productos.html">Productos</a></li>
+                     <li><a href="Locales.html">Locales</a></li>
+                     <li><a href="Audiovisuales.html">Audiovisuales</a></li>
+                     <li><a href="Nosotros.html">Nosotros</a></li>
+                 </ul>
+           </nav>
+       </header>
+       
+       <h2 style="margin: 15px;">Productos de Mc Donald's</h2>
+       
+       <hr>
+       
+       <div class="container">
+            <table>
+                    <colgroup>
+                        <col style="background-color:rgb(207, 207, 207);">
+                        <col>
+                        <col>
+                        <col>
+                        <col>
+                    </colgroup>
+                    <th></th>
+                    <th>Productos</th>
+                    <th>kcal</th>
+                    
+                    <tr>
+                        <td>Nombre</td>
+                        <td>Hamburguesa</td>
+                        <td>243 kcal</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Nombre</td>
+                        <td>Hamburguesa con queso</td>
+                        <td>289 kcal</td>
+                       
+                    </tr>
+                    <tr>
+                        <td>Nombre</td>
+                        <td>Mc Fiesta</td>
+                        <td>289 Kcal</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Nombre</td>
+                        <td>Doble carne Doble queso</td>
+                        <td>430 Kcal</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Nombre</td>
+                        <td>Triple Hamburguesa con queso</td>
+                        <td>512 Kcal</td>
+                    
+                    </tr>
+                    <tr>
+                        <td>Nombre</td>
+                        <td>Big mac</td>
+                        <td>505 Kcal</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Nombre</td>
+                        <td>Cuarto Libra con queso</td>
+                        <td>520 kal</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Nombre</td>
+                        <td>Mcnifica</td>
+                        <td>513 Kcal</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Nombre</td>
+                        <td>Doble de cuarto de libra con queso</td>
+                        <td>771 Kcal</td>
+                        
+                    </tr>
+            </table>
+       </div>
+
+       <footer>
+            <p>Derechos reservados &copy;</p>
+       </footer>
+    
+</body>
+</html>

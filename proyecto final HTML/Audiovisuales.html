@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>mcdonalds</title>
+    <style>
+        video {max-width: 60%;
+        }
+    </style>
+    <style>
+         body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 33vw;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .centrado {
+            display: flex;
+            justify-content: center;
+        }
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+       <header>
+           <nav>
+                 <ul>
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="Productos.html">Productos</a></li>
+                     <li><a href="Locales.html">Locales</a></li>
+                     <li><a class="active" href="Audiovisuales.html">Audiovisuales</a></li>
+                     <li><a href="Nosotros.html">Nosotros</a></li>
+                 </ul>
+           </nav>
+       </header>
+            <div class="centrado">
+                 <video src="assets/videos/BURGER 🍔 Video Publicitario.mp4.mp4" controls autoplay loop></video>
+            </div>
+        <section class="centrado">
+            <div class="galery">
+                <a href="assets/img/Sucursal 1.jpg" target="_blank"><img src="assets/img/Sucursal 1.jpg"width="250" height="175"></a>
+                <div class="desc">sucursal 1</div>
+            </div>
+            <div class="centrado">
+                <a href="assets/img/sucursal 2.jpg" target="_blank"><img src="assets/img/sucursal 2.jpg"width="300" height="175"></a>
+                <div class="desc">sucursal 2</div>
+            </div>
+            <div class="centrado">
+                <a href="assets/img/sucursal 3.jpg" target="_blank"><img src="assets/img/sucursal 3.jpg"width="350" height="175"></a>
+                <div class="desc">sucursal 3</div>
+            </div>
+        </section>
+       <footer>
+            <p>Derechos reservados &copy;</p>
+       </footer>
+    
+</body>
+</html>
